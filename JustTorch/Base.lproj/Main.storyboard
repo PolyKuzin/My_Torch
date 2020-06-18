@@ -18,10 +18,13 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pov-Ta-ON6">
                                 <rect key="frame" x="148" y="409.5" width="118" height="77"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="118" id="60h-LM-GQB"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="118" id="60h-LM-GQB"/>
                                     <constraint firstAttribute="height" constant="77" id="NDb-Lm-44w"/>
                                 </constraints>
                                 <state key="normal" title="Torch"/>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="own-Tq-yzn"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>

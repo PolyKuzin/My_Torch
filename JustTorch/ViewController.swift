@@ -38,7 +38,7 @@ class ViewController: UIViewController
                     case AVCaptureDevice.TorchMode.off?:
                         sender.setTitle("Torch OFF", for: UIControl.State.normal)
                     default:
-                        print("Error")
+                        alert()
                 }
                     device?.unlockForConfiguration()
                 } catch{
@@ -46,6 +46,14 @@ class ViewController: UIViewController
                 }
         }
 // If the device hasn't a Torch button title will change to "Sorry, but your device doesn't has a torch"
-        else {sender.setTitle("Sorry, but your device doesn't has a torch", for: UIControl.State.normal)}
+        else {
+            alert()
+        }
+    }
+    func alert(){
+        let alert = UIAlertController(title: "UUUps", message: "Your devise does not have a flash(", preferredStyle: .alert)
+        let ok = UIAlertAction(title: "Ok(", style: .default, handler: nil)
+        alert.addAction(ok)
+        self.present(alert, animated: true)
     }
 }

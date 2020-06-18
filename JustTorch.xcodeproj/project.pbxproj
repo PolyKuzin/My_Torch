@@ -13,10 +13,11 @@
 		993DD184249B751200EE98C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 993DD182249B751200EE98C7 /* Main.storyboard */; };
 		993DD186249B751400EE98C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 993DD185249B751400EE98C7 /* Assets.xcassets */; };
 		993DD189249B751400EE98C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 993DD187249B751400EE98C7 /* LaunchScreen.storyboard */; };
+		993DD191249B9D4700EE98C7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 993DD190249B9D4700EE98C7 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		993DD179249B751200EE98C7 /* My_Torch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = My_Torch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		993DD179249B751200EE98C7 /* JustTorch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JustTorch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		993DD17C249B751200EE98C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		993DD17E249B751200EE98C7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		993DD180249B751200EE98C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +25,7 @@
 		993DD185249B751400EE98C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		993DD188249B751400EE98C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		993DD18A249B751400EE98C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		993DD190249B9D4700EE98C7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +42,8 @@
 		993DD170249B751200EE98C7 = {
 			isa = PBXGroup;
 			children = (
-				993DD17B249B751200EE98C7 /* My_Torch */,
+				993DD190249B9D4700EE98C7 /* Default-568h@2x.png */,
+				993DD17B249B751200EE98C7 /* JustTorch */,
 				993DD17A249B751200EE98C7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +51,12 @@
 		993DD17A249B751200EE98C7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				993DD179249B751200EE98C7 /* My_Torch.app */,
+				993DD179249B751200EE98C7 /* JustTorch.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		993DD17B249B751200EE98C7 /* My_Torch */ = {
+		993DD17B249B751200EE98C7 /* JustTorch */ = {
 			isa = PBXGroup;
 			children = (
 				993DD17C249B751200EE98C7 /* AppDelegate.swift */,
@@ -64,15 +67,15 @@
 				993DD187249B751400EE98C7 /* LaunchScreen.storyboard */,
 				993DD18A249B751400EE98C7 /* Info.plist */,
 			);
-			path = My_Torch;
+			path = JustTorch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		993DD178249B751200EE98C7 /* My_Torch */ = {
+		993DD178249B751200EE98C7 /* JustTorch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 993DD18D249B751400EE98C7 /* Build configuration list for PBXNativeTarget "My_Torch" */;
+			buildConfigurationList = 993DD18D249B751400EE98C7 /* Build configuration list for PBXNativeTarget "JustTorch" */;
 			buildPhases = (
 				993DD175249B751200EE98C7 /* Sources */,
 				993DD176249B751200EE98C7 /* Frameworks */,
@@ -82,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = My_Torch;
+			name = JustTorch;
 			productName = JustTorch;
-			productReference = 993DD179249B751200EE98C7 /* My_Torch.app */;
+			productReference = 993DD179249B751200EE98C7 /* JustTorch.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 993DD174249B751200EE98C7 /* Build configuration list for PBXProject "My_Torch" */;
+			buildConfigurationList = 993DD174249B751200EE98C7 /* Build configuration list for PBXProject "JustTorch" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				993DD178249B751200EE98C7 /* My_Torch */,
+				993DD178249B751200EE98C7 /* JustTorch */,
 			);
 		};
 /* End PBXProject section */
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				993DD189249B751400EE98C7 /* LaunchScreen.storyboard in Resources */,
+				993DD191249B9D4700EE98C7 /* Default-568h@2x.png in Resources */,
 				993DD186249B751400EE98C7 /* Assets.xcassets in Resources */,
 				993DD184249B751200EE98C7 /* Main.storyboard in Resources */,
 			);
@@ -292,7 +296,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ru.polykuzin.JustTorch;
-				PRODUCT_NAME = My_Torch;
+				PRODUCT_NAME = JustTorch;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -310,7 +314,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ru.polykuzin.JustTorch;
-				PRODUCT_NAME = My_Torch;
+				PRODUCT_NAME = JustTorch;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -319,7 +323,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		993DD174249B751200EE98C7 /* Build configuration list for PBXProject "My_Torch" */ = {
+		993DD174249B751200EE98C7 /* Build configuration list for PBXProject "JustTorch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				993DD18B249B751400EE98C7 /* Debug */,
@@ -328,7 +332,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		993DD18D249B751400EE98C7 /* Build configuration list for PBXNativeTarget "My_Torch" */ = {
+		993DD18D249B751400EE98C7 /* Build configuration list for PBXNativeTarget "JustTorch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				993DD18E249B751400EE98C7 /* Debug */,
