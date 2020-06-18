@@ -11,4 +11,4 @@
 
 Логика приложения максимально примитивная: нажатие на кнопку провоцирует включение фонарика (вспышка от камеры), так как кнопка всего одна, то пользователь не потеряется:
 
-![alt text](https://yadi.sk/i/Ys94liJHKJJVmQ)
+![Image](https://s82vla.storage.yandex.net/rdisk/0589cd09b4da9de4c7c27900a2518456a1bee58d3e61aa981e9904dc4dbfe8ce/5eeba9d6/gp6Xy8PTyCjPGTZNEvZJHxo2hjyXjvNb1i9FHcEPE9jqrQ8hV9SrcUB_cyJcDcR6ZjXXZk6ab5_kksu1W6gKVQ==?uid=412147024&filename=Simulator+Screen+Shot+-+iPhone+SE+%282nd+generation%29+-+2020-06-18+at+16.09.15.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&owner_uid=412147024&media_type=image&etag=82a42b56a5d1609c7c274e6043c09fd3&fsize=29436&hid=39029780c48d3fbb10cc6241dc6132de&rtoken=Tjse8l9ssOJI&force_default=yes&ycrid=na-c023fc01496d8654023c018588e7a1ee-downloader7f&ts=5a85f703da180&s=c789f6953847f56760617ac1b2c9c7f4e30ae5de93d927dde1bd08315b163c05&pb=U2FsdGVkX1-w0GlU7sqJ08g-3I8tnf3LU_8U1RjxFBzG4NOFaF6glFPLsJasZTeCz2qs9x-G9aNTqthv8fVmScKwsDD71QAKaG3xGaMDbDo)
