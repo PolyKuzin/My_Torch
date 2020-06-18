@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:JustTorch.xcodeproj">
+      location = "self:/Users/pavelkuzin/Documents/JustTorch/My_Torch.xcodeproj">
    </FileRef>
 </Workspace>
